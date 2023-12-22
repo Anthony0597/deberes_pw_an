@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estiloCalculadoraFinal.css">
+    <script src="../js/calculadoraFinal.js"></script>
+</head>
+
+<body>
+    <header></header>
+    <nav></nav>
+    <section>
+        <div class="container">
+            <div class="calculadora">
+                <div id="resultado" class="display">
+                    Resultado
+                </div>
+                <button class="btn_span2" onclick="limpiarL()">C</button>
+                <button>&#8592;</button>
+                <button onclick="agregarope('/')">/</button>
+                <button onclick="agregarNum('7')">7</button>
+                <button onclick="agregarNum('8')">8</button>
+                <button onclick="agregarNum('9')">9</button>
+                <button onclick="agregarope('*')">&#215;</button>
+                <button onclick="agregarNum('4')">4</button>
+                <button onclick="agregarNum('5')">5</button>
+                <button onclick="agregarNum('6')">6</button>
+                <button onclick="agregarope('-')">&#8722;</button>
+                <button onclick="agregarNum('1')">1</button>
+                <button onclick="agregarNum('2')">2</button>
+                <button onclick="agregarNum('3')">3</button>
+                <button onclick="agregarOpe('+')">&#43;</button>
+                <button class="btn_span2" onclick="agregarNum('0')">0</button>
+                <button onclick="agregarNum(',')">&#46;</button>
+                <button onclick="aplicarOpe()">&#61;</button>
+            </div>
+
+        </div>
+    </section>
+    <aside></aside>
+    <footer></footer>
+</body>
+
+</html>
